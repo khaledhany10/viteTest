@@ -41,6 +41,9 @@ const router = createBrowserRouter([
     {path: 'WishList' , element: <ProtectRoute>
       <Wishlist />
     </ProtectRoute> },
+    {path: 'https://khaledhany10.github.io/viteTest/' , element: <ProtectRoute>
+      <Products />
+    </ProtectRoute> },
     {path: 'Brand' , element: <ProtectRoute>
       <Brands />
     </ProtectRoute> },
